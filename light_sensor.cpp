@@ -1,5 +1,3 @@
-// Arduino and KY-018 module
-
 void setup() {
   Serial.begin(9600); // initialize serial monitor
   Serial.println("A0       A1");
@@ -12,7 +10,7 @@ void loop() {
   Serial.print("\t");
 
   int a1 = analogRead(A1);
-  Serial.print(analogRead(a1));
+  Serial.print(a1);
   Serial.println();
 
   if (a0 < 70 && a1 < 70){
