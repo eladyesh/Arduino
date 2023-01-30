@@ -1,3 +1,5 @@
+// Arduino and KY-018 module
+
 void setup() {
   Serial.begin(9600); // initialize serial monitor
   Serial.println("A0       A1");
