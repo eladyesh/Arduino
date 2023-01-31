@@ -1,4 +1,4 @@
-# oham meter using a known resistor
+// oham meter using a known resistor
 int analogPin = 0;
 int raw = 0;
 int Vin = 5;
