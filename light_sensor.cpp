@@ -1,5 +1,5 @@
 // Arduino and KY-018 module
-# light sensor of A0 enterence
+// light sensor of A0 enterence
 void setup() {
   Serial.begin(9600); // initialize serial monitor
   Serial.println("A0       A1");
