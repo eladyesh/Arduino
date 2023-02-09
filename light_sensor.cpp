@@ -15,12 +15,14 @@ void loop() {
   Serial.print(a1);
   Serial.println();
 
-  if (a0 < 70 && a1 < 70){
-    Serial.println("==================Laser==================");
-    char message[50];
-    sprintf(message, "a0 = %d, a1 = %d", a0, a1);
-    Serial.println(message);
-    Serial.println("==================Laser==================");
+  if (a0 < 30){
+    if (a1 < 30){
+      Serial.println("==================Laser==================");
+      char message[50];
+      sprintf(message, "a0 = %d, a1 = %d", a0, a1);
+      Serial.println(message);
+      Serial.println("==================Laser==================");
+    }
   }
   delay(1000);
 }
